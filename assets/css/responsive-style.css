@@ -5,12 +5,12 @@
     .section-subtitle {
         max-width: 60%;
     }
-
-    
+ 
     /* 2. Banner css */
     .banner_section .carousel-item{
         height: 90vh;
     }
+
 }
 
 
@@ -22,7 +22,8 @@
     .about .banner_section,
     .product .banner_section,
     .gallery .banner_section,
-    .contact .banner_section {
+    .contact .banner_section,
+    .distributors .banner_section{
         padding-top: 12.5rem;
         padding-bottom: 3rem;
     }
@@ -47,6 +48,11 @@
     .header .header_right span {
         padding: 0.2rem 0.5rem;
     }  
+
+    /* banner text */
+    h1{
+        font-size: 7rem;
+    }
     
 }
 
@@ -62,14 +68,18 @@
         max-width: 80%;
     }
 
-
     /* 2. Banner css */
     .banner_section{
         min-height: 70vh;
     }
-     .banner_section .carousel-item{
+    .banner_section .carousel-item{
         height: 70vh;
     }
+    /* banner text */
+    h1{
+        font-size: 6rem;
+    }
+    
 }
 
 
@@ -82,7 +92,8 @@
         font-size: 7px;
     }
 
-    /* 1. Navbar css */
-
     /* 2. Banner css */
+        h1{
+        font-size: 6rem;
+    }
 }
